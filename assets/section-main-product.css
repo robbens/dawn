@@ -567,8 +567,13 @@ a.product__text {
 }
 
 .product__media-toggle {
-  background-color: transparent;
   border: none;
+  background: transparent;
+  color: currentColor;
+}
+
+.product__media-toggle::after {
+  content: '';
   cursor: pointer;
   display: block;
   margin: 0;
@@ -579,6 +584,17 @@ a.product__text {
   z-index: 2;
   height: 100%;
   width: 100%;
+}
+
+.product__media-toggle:focus-visible {
+  outline: 0;
+  box-shadow: none;
+}
+
+.product__media-toggle:focus-visible:after {
+  outline: 0.2rem solid rgba(var(--color-foreground),.5);
+  outline-offset: 0.3rem;
+  box-shadow: 0 0 0 0.3rem rgb(var(--color-background)),0 0 0.5rem 0.4rem rgba(var(--color-foreground),.3);
 }
 
 .product-media-modal {
@@ -917,8 +933,7 @@ a.product__text {
   padding: 0;
   color: rgb(var(--color-base-text));
   cursor: pointer;
-  border: 0.2rem inset rgb(var(--color-base-background-1));
-  border-style: solid;
+  border: 0.2rem solid rgb(var(--color-base-background-1));
 }
 
 .thumbnail:hover {
