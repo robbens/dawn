@@ -2073,18 +2073,6 @@
           "settings": {
             "paragraph": {
               "label": "Popis"
-            },
-            "text_style": {
-              "options__1": {
-                "label": "Hlavní část"
-              },
-              "options__2": {
-                "label": "Podtitul"
-              },
-              "options__3": {
-                "label": "Velká písmena"
-              },
-              "label": "Textový styl"
             }
           }
         },

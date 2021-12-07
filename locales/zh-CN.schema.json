@@ -2073,18 +2073,6 @@
           "settings": {
             "paragraph": {
               "label": "描述"
-            },
-            "text_style": {
-              "options__1": {
-                "label": "正文"
-              },
-              "options__2": {
-                "label": "副标题"
-              },
-              "options__3": {
-                "label": "大写"
-              },
-              "label": "文本样式"
             }
           }
         },

@@ -2073,18 +2073,6 @@
           "settings": {
             "paragraph": {
               "label": "Kuvaus"
-            },
-            "text_style": {
-              "options__1": {
-                "label": "Leipäteksti"
-              },
-              "options__2": {
-                "label": "Alaotsikko"
-              },
-              "options__3": {
-                "label": "Isot kirjaimet"
-              },
-              "label": "Tekstityyli"
             }
           }
         },

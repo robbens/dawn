@@ -2073,18 +2073,6 @@
           "settings": {
             "paragraph": {
               "label": "คำอธิบาย"
-            },
-            "text_style": {
-              "options__1": {
-                "label": "เนื้อหา"
-              },
-              "options__2": {
-                "label": "คำบรรยาย"
-              },
-              "options__3": {
-                "label": "ตัวพิมพ์ใหญ่"
-              },
-              "label": "รูปแบบข้อความ"
             }
           }
         },

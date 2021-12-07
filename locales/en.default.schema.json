@@ -1917,18 +1917,6 @@
           "settings": {
             "paragraph": {
               "label": "Description"
-            },
-            "text_style": {
-              "options__1": {
-                "label": "Body"
-              },
-              "options__2": {
-                "label": "Subtitle"
-              },
-              "options__3": {
-                "label": "Uppercase"
-              },
-              "label": "Text style"
             }
           }
         },

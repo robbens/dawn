@@ -2073,18 +2073,6 @@
           "settings": {
             "paragraph": {
               "label": "Beskrivning"
-            },
-            "text_style": {
-              "options__1": {
-                "label": "Brödtext"
-              },
-              "options__2": {
-                "label": "Underrubrik"
-              },
-              "options__3": {
-                "label": "Stora bokstäver"
-              },
-              "label": "Textstil"
             }
           }
         },

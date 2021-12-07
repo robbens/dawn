@@ -2073,18 +2073,6 @@
           "settings": {
             "paragraph": {
               "label": "Description"
-            },
-            "text_style": {
-              "options__1": {
-                "label": "Corps"
-              },
-              "options__2": {
-                "label": "Sous-titre"
-              },
-              "options__3": {
-                "label": "Majuscule"
-              },
-              "label": "Style de texte"
             }
           }
         },

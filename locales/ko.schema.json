@@ -2073,18 +2073,6 @@
           "settings": {
             "paragraph": {
               "label": "설명"
-            },
-            "text_style": {
-              "options__1": {
-                "label": "본문"
-              },
-              "options__2": {
-                "label": "소제목"
-              },
-              "options__3": {
-                "label": "대문자"
-              },
-              "label": "텍스트 스타일"
             }
           }
         },

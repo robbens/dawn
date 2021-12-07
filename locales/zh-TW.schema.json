@@ -1841,18 +1841,6 @@
           "settings": {
             "text": {
               "label": "文字"
-            },
-            "text_style": {
-              "label": "文字樣式",
-              "options__1": {
-                "label": "內文"
-              },
-              "options__2": {
-                "label": "副標題"
-              },
-              "options__3": {
-                "label": "大寫"
-              }
             }
           }
         },

@@ -2073,18 +2073,6 @@
           "settings": {
             "paragraph": {
               "label": "Beschreibung"
-            },
-            "text_style": {
-              "options__1": {
-                "label": "Nachricht"
-              },
-              "options__2": {
-                "label": "Untertitel"
-              },
-              "options__3": {
-                "label": "Großbuchstaben"
-              },
-              "label": "Textstil"
             }
           }
         },

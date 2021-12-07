@@ -2073,18 +2073,6 @@
           "settings": {
             "paragraph": {
               "label": "Descrição"
-            },
-            "text_style": {
-              "options__1": {
-                "label": "Corpo"
-              },
-              "options__2": {
-                "label": "Legenda"
-              },
-              "options__3": {
-                "label": "Maiúsculas"
-              },
-              "label": "Estilo de texto"
             }
           }
         },

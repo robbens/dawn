@@ -2073,18 +2073,6 @@
           "settings": {
             "paragraph": {
               "label": "説明"
-            },
-            "text_style": {
-              "options__1": {
-                "label": "本文"
-              },
-              "options__2": {
-                "label": "字幕"
-              },
-              "options__3": {
-                "label": "大文字"
-              },
-              "label": "テキストスタイル"
             }
           }
         },
