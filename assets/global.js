@@ -614,9 +614,6 @@ class VariantSelects extends HTMLElement {
     if (!this.currentVariant) return;
     if (!this.currentVariant.featured_media) return;
 
-    this.stickyHeader = this.stickyHeader || document.querySelector('sticky-header');
-    if (this.stickyHeader) this.stickyHeader.dispatchEvent(new Event('preventHeaderReveal'));
-
     const mediaGallery = document.getElementById(`MediaGallery-${this.dataset.section}`);
     mediaGallery.setActiveMedia(`${this.dataset.section}-${this.currentVariant.featured_media.id}`, true);
 
