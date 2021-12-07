@@ -130,7 +130,7 @@
                       aria-controls="GalleryViewer-{{ section.id }}"
                       aria-describedby="Thumbnail-{{ section.id }}-{{ forloop.index }}"
                     >
-                      <img aria-describedby="Thumbnail-{{ section.id }}-{{ forloop.index }}"
+                      <img id="Thumbnail-{{ section.id }}-{{ forloop.index }}"
                         srcset="{% if media.preview_image.width >= 59 %}{{ media.preview_image | img_url: '59x' }} 59x,{% endif %}
                                 {% if media.preview_image.width >= 118 %}{{ media.preview_image | img_url: '118x' }} 118w,{% endif %}
                                 {% if media.preview_image.width >= 84 %}{{ media.preview_image | img_url: '84x' }} 84w,{% endif %}
