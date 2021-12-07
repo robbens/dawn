@@ -567,6 +567,7 @@ a.product__text {
 }
 
 .product__media-toggle {
+  display: flex;
   border: none;
   background: transparent;
   color: currentColor;
