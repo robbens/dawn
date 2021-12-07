@@ -1536,7 +1536,7 @@
           "info": "Learn more about [media types.](https://help.shopify.com/manual/products/product-media)"
         },
         "enable_sticky_info": {
-          "label": "Enable sticky column"
+          "label": "Enable sticky content on desktop"
         },
         "gallery_layout": {
           "label": "Desktop layout",
