@@ -527,6 +527,11 @@ class SliderComponent extends HTMLElement {
     this.update();
   }
 
+  resetPages() {
+    this.sliderItems = this.slider.querySelectorAll('li');
+    this.initPages();
+  }
+
   update() {
     const previousPage = this.currentPage;
     this.currentPage = Math.round(this.slider.scrollLeft / this.sliderLastItem.clientWidth) + 1;
@@ -545,7 +550,8 @@ class SliderComponent extends HTMLElement {
 
     if (this.currentPage != previousPage) {
       this.dispatchEvent(new CustomEvent('slideChanged', { detail: {
-        currentPage: this.currentPage
+        currentPage: this.currentPage,
+        currentElement: this.sliderItemsToShow[this.currentPage - 1]
       }}));
     }
 

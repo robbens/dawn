@@ -1539,16 +1539,20 @@
           "label": "Enable sticky column"
         },
         "gallery_layout": {
-          "label": "Large screens layout",
+          "label": "Desktop layout",
           "options__1": {
             "label": "Stacked"
           },
           "options__2": {
             "label": "Thumbnails"
+          },
+          "options__3": {
+            "label": "Thumbnail carousel"
           }
         },
         "media_size": {
-          "label": "Media size",
+          "label": "Desktop media size",
+          "info": "Media is automatically optimized for mobile.",
           "options__1": {
             "label": "Small"
           },
