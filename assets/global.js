@@ -663,12 +663,19 @@ class VariantSelects extends HTMLElement {
     fetch(`${this.dataset.url}?variant=${this.currentVariant.id}&section_id=${this.dataset.section}`)
       .then((response) => response.text())
       .then((responseText) => {
-        const id = `price-${this.dataset.section}`;
+        const priceId = `price-${this.dataset.section}`;
+        const valueId = `value-${this.dataset.section}`;
         const html = new DOMParser().parseFromString(responseText, 'text/html')
-        const destination = document.getElementById(id);
-        const source = html.getElementById(id);
+        const priceDestination = document.getElementById(priceId);
+        const priceSource = html.getElementById(priceId);
 
-        if (source && destination) destination.innerHTML = source.innerHTML;
+        const valueDestination = document.getElementById(valueId);
+        const valueSource = html.getElementById(valueId);
+
+        console.log({valueId, valueSource, valueDestination})
+
+        if (priceSource && priceDestination) priceDestination.innerHTML = priceSource.innerHTML;
+        if (valueSource && valueDestination) valueDestination.innerHTML = valueSource.innerHTML;
 
         const price = document.getElementById(`price-${this.dataset.section}`);
 

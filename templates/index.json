@@ -1,5 +1,8 @@
 {
   "sections": {
+    "litt_intro": {
+      "type": "litt-intro"
+    },
     "image_banner": {
       "type": "image-banner",
       "settings": {
@@ -96,6 +99,7 @@
     }
   },
   "order": [
+    "litt_intro",
     "image_banner",
     "rich_text",
     "featured_products",
