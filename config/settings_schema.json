@@ -214,7 +214,7 @@
         "id": "page_width",
         "options": [
           {
-            "value": "1200",
+            "value": "1100",
             "label": "t:settings_schema.layout.settings.page_width.options__1.label"
           },
           {
@@ -222,7 +222,7 @@
             "label": "t:settings_schema.layout.settings.page_width.options__2.label"
           }
         ],
-        "default": "1600",
+        "default": "1100",
         "label": "t:settings_schema.layout.settings.page_width.label"
       }
     ]

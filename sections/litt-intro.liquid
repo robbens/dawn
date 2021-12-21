@@ -4,8 +4,10 @@
 
 <div class="litt-intro page-width {% if section.settings.reverse %}litt-intro--reverse{% endif %}">
     <div class="litt-intro__left">
+        <img class="litt-intro__left__background" src="{{ 'bg-desktop.png' | asset_url }}" alt="">
         <div class="litt-intro__image">
         {%- if section.settings.image -%}
+        <img class="litt-intro__image__badge" src="{{ 'created-in-badge.png' | asset_url }}" alt="">
         <img
                 srcset="{%- if section.settings.image.width >= 375 -%}{{ section.settings.image | img_url: '375x' }} 375w,{%- endif -%}
                 {%- if section.settings.image.width >= 750 -%}{{ section.settings.image | img_url: '750x' }} 750w,{%- endif -%}
@@ -48,6 +50,8 @@
 
         <div class="litt-intro__image">
             {%- if section.settings.image -%}
+                <img class="litt-intro__image__badge" src="{{ 'created-in-badge.png' | asset_url }}" alt="">
+
                 <img
                         srcset="{%- if section.settings.image.width >= 375 -%}{{ section.settings.image | img_url: '375x' }} 375w,{%- endif -%}
                 {%- if section.settings.image.width >= 750 -%}{{ section.settings.image | img_url: '750x' }} 750w,{%- endif -%}
