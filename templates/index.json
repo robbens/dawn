@@ -6,25 +6,29 @@
         "f000fe65-cb22-4141-a990-17a60098f94c": {
           "type": "text-with-icon",
           "settings": {
-            "text": "Premium CBD"
+            "text": "Premium CBD",
+            "icon": "shopify:\/\/shop_images\/CBD.png"
           }
         },
         "1cd7fc1f-2406-436e-8fa7-b46b1c28a2e3": {
           "type": "text-with-icon",
           "settings": {
-            "text": "Selected micronutrients for better brain function"
+            "text": "Selected micronutrients for better brain function",
+            "icon": "shopify:\/\/shop_images\/Micronutrients.png"
           }
         },
         "50966f11-d1ae-43a6-9668-e9347db95fd6": {
           "type": "text-with-icon",
           "settings": {
-            "text": "Soothing botanicals"
+            "text": "Soothing botanicals",
+            "icon": "shopify:\/\/shop_images\/Botanicals.png"
           }
         },
         "08805efc-b10e-4b22-bbe6-e51d8a1ce711": {
           "type": "text-with-icon",
           "settings": {
-            "text": "Reduced sugar- no artificial sweeteners"
+            "text": "Reduced sugar- no artificial sweeteners",
+            "icon": "shopify:\/\/shop_images\/Reduced_sugar.png"
           }
         }
       },
@@ -39,6 +43,7 @@
         "sub_title": "Grab yourself a pack. Delivery early 2022.",
         "text": "A breezier buzz to raise your energy, with bold flavorsthat sparkle. A performance drink for everyday use.",
         "product": "get-litt",
+        "image": "shopify:\/\/shop_images\/Can_Image.png",
         "reverse": false
       }
     },
