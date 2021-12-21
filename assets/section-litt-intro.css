@@ -42,6 +42,10 @@
     }
 }
 
+.litt-intro__image {
+    padding: 50px 30%;
+}
+
 .litt-intro__image img {
     max-width: 100%;
     height: auto;

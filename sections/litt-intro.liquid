@@ -111,6 +111,7 @@
                                     >
                                     <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
                                         {{ value }}
+                                        <img src="{{ 'assets/images/variation-box.svg' | asset_img_url }}" alt="">
                                     </label>
                                 {%- endfor -%}
                             </fieldset>
