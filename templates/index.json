@@ -6,21 +6,37 @@
         "f117d8bc-e1f9-4aeb-98de-9fb9433d2beb": {
           "type": "text-with-icon",
           "settings": {
-            "text": "Text block",
-            "icon": "shopify:\/\/shop_images\/Botanicals.png"
+            "text": "Premium CBD",
+            "icon": "shopify:\/\/shop_images\/CBD.png"
           }
         },
         "2a0db70b-1323-41d1-959f-bf3bf3a4980e": {
           "type": "text-with-icon",
           "settings": {
-            "text": "Text block",
-            "icon": "shopify:\/\/shop_images\/CBD.png"
+            "text": "Selected micronutrientsfor better brain function",
+            "icon": "shopify:\/\/shop_images\/Micronutrients.png"
+          }
+        },
+        "f2df60fc-02b2-479a-b4ef-b0058859fd15": {
+          "type": "text-with-icon",
+          "settings": {
+            "text": "Soothing botanicals",
+            "icon": "shopify:\/\/shop_images\/Botanicals.png"
+          }
+        },
+        "c013ac8d-8e0b-4309-839d-ec03ff95964e": {
+          "type": "text-with-icon",
+          "settings": {
+            "text": "Reduced sugar- no artificial sweeteners",
+            "icon": "shopify:\/\/shop_images\/Reduced_sugar.png"
           }
         }
       },
       "block_order": [
         "f117d8bc-e1f9-4aeb-98de-9fb9433d2beb",
-        "2a0db70b-1323-41d1-959f-bf3bf3a4980e"
+        "2a0db70b-1323-41d1-959f-bf3bf3a4980e",
+        "f2df60fc-02b2-479a-b4ef-b0058859fd15",
+        "c013ac8d-8e0b-4309-839d-ec03ff95964e"
       ],
       "settings": {
         "title": "",
