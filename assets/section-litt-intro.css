@@ -81,17 +81,16 @@
 
 .litt-intro__grid__item img {
     flex-shrink: 0;
+    max-width: 100%;
+    height: auto;
 }
 
 .litt-intro .product-form .product-form__input input[type='radio'] + label {
     background: rgba(var(--color-background));
     color: #6a6a6b;
-    border: 2px solid #6a6a6b;
     height: 60px;
-    width: 40px;
-    padding: 0;
-    margin: 0.7rem 0.7rem 0 0;
-    border-radius: 8px;
+    width: 36px;
+    margin: 0.7rem 1.7rem 0 0;
     line-height: 1;
     display: inline-flex;
     align-items: center;
@@ -99,6 +98,14 @@
     position: relative;
     font-size: 30px;
     font-style: italic;
+    cursor: pointer;
+}
+
+.litt-intro .product-form .product-form__input input[type='radio'] + label svg {
+    position: absolute;
+    right: -11px;
+    width: 48px;
+    bottom: -4px;
 }
 
 /*.litt-intro .product-form .product-form__input input[type='radio'] + label::after {*/
@@ -123,7 +130,6 @@
 .litt-intro .product-form .product-form__input input[type='radio']:checked + label::after,
 .litt-intro .product-form .product-form__input input[type='radio'] + label:hover::after {
     color: #99d6bd;
-    border: 2px solid #99d6bd;
 }
 
 .litt-intro .product-form form {
